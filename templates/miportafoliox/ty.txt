@@ -1,0 +1,70 @@
+
+                                    <div class="visit-cap ">
+                                        
+                                    </div>
+
+
+                                      <div>
+                                    <span style="font-size: 2.3em ; font-family: Helvetica ">Formación académica</span>
+                                    <div>
+                                        <br/>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br> <strong>Bachiller en Educación media</strong></h4>
+                                            <p><strong>Colegio Joge Volio Jiménez | Nov, 2013.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Técnico en Redes Informáticas</strong></h4>
+                                            <p><strong>Universidad Estatal a Distancia | Nov, 2016.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>English for Business</strong></h4>
+                                            <p><strong>Instituto Nacional de Aprendizaje | agosto, 2012.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Portación de armas Completo</strong></h4>
+                                            <p><strong>Escuela Nacional de Policías & EPSA | Nov, 2020.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Curso de Supervisor & PMI</strong></h4>
+                                            <p><strong>Instituto Técnico Nacional de Costa Rica | Nov, 2018.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Manipulación de alimentos</strong></h4>
+                                            <p><strong>Instituto Nacional de Aprendizaje I.N.A | Nov, 2020.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Servicio al cliente</strong></h4>
+                                            <p><strong>Instituto Técnico Nacional de Costa Rica | Ene, 2019.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Técnico en Computación v.2020</strong></h4>
+                                            <p><strong>Instituto Técnico Nacional de Costa Rica | Abril, 2019.</strong>
+                                            </p>
+                                        </div>
+                                        <div class="visit-cap ">
+                                            <h4>
+                                                </br><strong>Formación complementaria</strong></h4>
+                                            <p><strong>AWS VPS C2 | Inteligencia artificial | NUMPY | MATPLOTLIB | TWILIO | Detección de movimientos Python | Paqueteria Microsoft Office 2021 | MySQL WORKBENCH | INDIGO | FLASK | Prevención contra incendios | Otros...</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <br/>
+
+                                </div>
+                                

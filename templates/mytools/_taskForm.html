@@ -1,0 +1,28 @@
+<form action="/new" method="POST" class="card bg-black text-light">
+  <div class="card-body p-4">
+    <h1 class="h5 mb-4">Nuevo comentario</h1>
+
+    <div class="mb-3">
+      <label for="usuario">Usuario:</label>
+      <input
+        type="text"
+        name="usuario"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder=";"
+        autofocus
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="comentario">Comentario:</label>
+      <input
+        type="text"
+        name="comentario"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder=";"
+        required
+      />
+    </div>
+    <button class="btn btn-primary">Guardar</button>
+  </div>
+</form>

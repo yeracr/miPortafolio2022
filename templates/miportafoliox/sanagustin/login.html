@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>San Agustín</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="{{url_for('static', filename='miportafoliox/sanagustin/css/main.css')}}" />
+  <noscript><link rel="stylesheet" href="{{url_for('static', filename='miportafoliox/sanagustin/css/noscript.css')}}" /></noscript>
+</head>
+
+
+<body class="is-preload">
+  <div id="wrapper">
+
+    <header id="header">
+
+
+
+      <div class="content">
+        <div class="inner">
+          <h1>APLICACIÓN PARA </br>CONDOMINIOS</h1>
+        </div>
+      </div>
+
+
+
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#login">INICIAR SESIÓN</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#registrarx">Registrate </a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+    </header>
+
+
+
+
+    <div id="main">
+      <article id="login">
+        <h2 class="major">INICIAR SESIÓN</h2></br>
+        <div>
+          <div>
+            <form class="form-group" action="{{ url_for('comentario.login') }}" method="post">
+              <label>Usuario</label>
+              <input type="text" class="form-control" name="username" placeholder=":" id="username" required></br>
+              <label>Contraseña</label>
+              <input type="password" class="form-control" name="password" placeholder="***" id="password" required></br></br>
+              <input type="submit" value="iniciar Sesión" class="form-control btn btn-success " name="">
+            </form></br>
+
+            <p><a  href="#registrarx"  > Registrarse</a></p>
+          </div>
+        </div>
+      </article>
+
+      <article id="registrarx">
+        <span class="image main"><img src="{{url_for('static', filename='miportafoliox/sanagustin/images/pic01.jpg')}}" alt="" /></span>
+        <h2>NUEVO CONDÓMINO</h2></br>
+        <h4>Si aún no tienes tu código de acceso, favor solicitarlo a administración <h4>
+    </br>
+    <form class="form-group" action="{{ url_for('comentario.registrar') }}" method="post">
+          <label>Codigo de acceso</label>
+          <input type="text" class="form-control" name="acceso" placeholder="DEJALO EN BLANCO" id="acceso">
+              </br></br>
+          <label>nombre completo</label>
+          <input type="text" class="form-control" name="nombreusuario" placeholder=":" id="nombreusuario" required>
+    </br></br>
+          <label>Username</label>
+          <input type="text" class="form-control" name="username" placeholder=":" id="username" required>
+             </br>
+          <label>Password</label>
+          <input type="password" class="form-control" name="password" placeholder="***" id="password" required>
+    </br>
+          <label>Confirmar password</label>
+          <input type="password" class="form-control" name="passwordxxx" placeholder="***" id="passwordxxx" required>
+    </br></br>
+          <label>Pin</label>
+          <input type="password" class="form-control" name="pin" placeholder="***" id="pin" required>
+    </br>
+          <label>casa</label>
+          <input type="text" class="form-control" name="casa" placeholder=":" id="casa" required>
+    </br></br>
+          <label for="email">Permanentes</label>
+          <textarea type="text" placeholder="Escriba aquí..." id= 'permanentes' name='permanentes' data-required="true" data-error-message="datos erroneos"  rows="4" cols="40" placeholder="Escriba aqui los permanentes."></textarea>
+          </br></br>
+          <input type="submit" value="Registrar nuevo usuario" class="form-control btn btn-success " name="">
+        </form>
+      </article>
+    </div></br></br>
+
+    <h3>{{ mensaje }}</h2>
+
+<button > <a href="/">Home</a> </button>    </br>    </br>
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">&copy;ecomycr 2021</br></br>Todos derechos reservados.</br></p>
+      </footer>
+  </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+  <script src="{{url_for('static', filename='miportafoliox/sanagustin/js/jquery.min.js')}}"></script>
+  <script src="{{url_for('static', filename='miportafoliox/sanagustin/js/browser.min.js')}}"></script>
+  <script src="{{url_for('static', filename='miportafoliox/sanagustin/js/breakpoints.min.js')}}"></script>
+  <script src="{{url_for('static', filename='miportafoliox/sanagustin/js/util.js')}}"></script>
+  <script src="{{url_for('static', filename='miportafoliox/sanagustin/js/main.js')}}"></script>
+</body>
+</html>
+

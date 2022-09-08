@@ -1,0 +1,141 @@
+we need..
+
+* Python3
+* Mysql Server Active
+
+before start the app, you need to create a environnment variable
+antes de iniciar crea tu variable de entorno, y guarda los siguientes datos
+
+MYSQL_USER=
+MYSQL_PASSWORD=
+MYSQL_DATABASE=
+MYSQL_HOST=
+MYSQL_PORT=
+
+
+pip install -r requirements.txt
+python index.py
+```
+
+aca un codigo que podria serviros
+
+#proceso
+
+virtualenv env
+source env/bin/activate en linux
+pip3 install -r requeriments.txt
+code .
+
+with dotenv
+mysql>
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'new_user'@'localhost';
+FLUSH PRIVILEGES;
+
+
+canales de youtube
+cursos realizados
+
+
+docker 
+sudo chmod 666 /var/run/docker.sock
+docker build -t cvapp .
+
+Fazt Code
+Programacion ATS 
+entre otros..
+
+
+
+
+
+archivo de docker creacion de docker image 
+FROM alpine:3.15.4
+RUN apk add --no-cache python3-dev \
+    && pip3 install --upgrade pip
+
+
+docker build -t miportafolio .       creacion de la imagen
+
+docker images
+
+docker run -it nombre_del_proyecto /bin/sh   con mi shell del linux ejecucion
+
+workdir /app   crear carpeta en mi linux alpine 
+
+COPY . /app  copiar toda mi carpeta a linux alpine
+
+instalar los requeriments para mi proyecto flask y funcione en alpine
+comando para instalar requeriments.txt 
+
+instalo en linux mi requeriments
+
+RUN pip3 --no-cache-dir install -r requeriments.txt
+
+
+ejecuto archivo py index principal
+CMD ['python3', 'index.py']
+
+
+
+
+docker components
+
+FROM alpine:3.15.4
+RUN apk add py3-pip \
+    && pip3 install --upgrade pip
+
+
+WORKDIR /app
+COPY . /app 
+
+RUN pip3 --no-cache-dir install -r requeriments.txt
+CMD ['python3', 'index.py']
+
+
+
+
+
+alpine = sistema linux y luego instalamos python
+imagen del contenedor
+APK ADMINISTRADOR DEL SISTEMA
+
+
+informacion github
+
+
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+git push -u origin master
+
+
+
+info heroku 
+
+$ heroku login
+heroku create cvapp
+git push heroku main 
+heroku open 
+
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a miportafolio21
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+
+
+heroku login 
+heroku create miportafolioapp
+heroku open
+
+
+

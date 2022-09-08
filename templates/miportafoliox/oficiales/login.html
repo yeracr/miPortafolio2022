@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Login - Empresa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <style>
+        .centersx {
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+        }
+    </style>
+
+
+</head>
+
+
+<body class="is-preload">
+    <div id="page-wrapper">
+        <div id="wrapper">
+            </br>
+            </br>
+            <section>
+                <div class="span-3-75">
+                    <h1 style=" font-size:44px; text-align:center" class="major">Iniciar Sesión</h1>
+                    <p style=" font-size:24px; text-align:center "> <strong> {{mensaje}}</strong></p>
+                    <p style=" font-size:18px; text-align:center">Recuerda que cualquier intento de plagio con tu cuenta o hacía alguna otra cuenta de oficial de seguridad, tendrás sanción inmediatamente.</strong>
+                    </p>
+                    </br>
+
+                    <div style="text-align:center" class="span-2-25">
+                        <form class="form-group" action="{{ url_for('comentario.loginf') }}" method="post">
+                            <label>Usuario</label>
+                            <input type="text" class="form-control" name="username" placeholder=":" id="username" required></br>
+                            </br>
+                            <label>Contraseña</label>
+                            <input type="password" class="form-control" name="password" placeholder="***" id="password" required></br>
+                            </br>
+                            </br>
+                            <input type="submit" style=" font-size:18px; text-align:center " value="Inicia Sesión" class="form-control btn btn-success " name="">
+                        </form>
+                        </br>
+                        </br>
+
+                        <p><a href="/formregistrof" style=" font-size:12px; text-align:center " class="button btn-xs primary color2">REGISTRARSE</a></p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{url_for('static', filename='miportafoliox/home_oficiales/js/jquery.min.js' )}} "></script>
+    <script src="{{url_for('static', filename='miportafoliox/home_oficiales/js/browser.min.js' )}}"></script>
+    <script src="{{url_for('static', filename='miportafoliox/home_oficiales/js/breakpoints.min.js' )}}"></script>
+    <script src="{{url_for('static', filename='miportafoliox/home_oficiales/js/main.js')}}"></script>
+
+</body>
+
+</html>

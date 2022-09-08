@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+  INICIO
+{% endblock %}
+
+{% block body %}
+
+    <!-- FORM -->
+    <div class="row">
+
+    <div class="col-md-5 p-5">
+      <!-- MESSAGE -->
+      {% include 'mytools/_message.html' %}
+
+      <!-- FORM -->
+      {%  include 'mytools/_taskForm.html' %}
+    </div>
+
+    <!-- comentario list -->
+    <div class="col-md-7">
+      {% for comentario in comentario %}
+        <div class="card mb-1 bg-black text-white">
+          <div class="card-body py-2 px-3">
+            <div class="d-flex justify-content-between">
+              <h5 class="card-title h6">{{ comentario.usuario}}</h5>
+
+              
+              <div>
+                <a href="{{ url_for('comentario.update', id=comentario.id) }}" class="btn btn-dark btn-sm rounded-0">Edit</a>
+                <a href="{{ url_for('comentario.delete', id=comentario.id) }}" class="btn btn-danger btn-sm rounded-0">Delete</a>
+              </div>
+            </div>
+            <p class="card-text">{{ comentario.comentario }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+    </div>
+
+
+
+
+{% endblock %}

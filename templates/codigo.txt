@@ -1,0 +1,36 @@
+cv faltantes
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 ">
+                        <div class="single-location mb-30 ">
+                            <div class="location-img ">
+                                <img src=" {{url_for('static', filename='miportafoliox/cv/img/gallery/location2.png' )}}" alt=" ">
+                            </div>
+                            <div class="location-details ">
+                                <p>Administrador CM-2021</p>
+                                <a href="# " class="location-btn ">De pago</a>
+
+                            </div>
+                        </div>
+                        </br>
+                    </div>
+
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-6 ">
+                        <div class="single-location mb-30 ">
+                            <div class="location-img ">
+                                <img src=" {{url_for( 'static', filename='miportafoliox/cv/img/gallery/location4.png' )}}" alt=" ">
+                            </div>
+                            <div class="location-details ">
+                                <p>@Ahorros-Kom</p>
+
+                                <a href="# " class="location-btn ">De pago</a>
+
+
+                            </div>
+                        </div>
+                        </br>
+                    </div>
+                    s
+
+                    

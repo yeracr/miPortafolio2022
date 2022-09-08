@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+
+	<title>Pagina de registro</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<style>
+.centersx {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+</style>
+
+
+</head>
+
+
+<body  >
+	<div >
+		<div >
+</br></br>
+			<section >
+				<div ></br>
+					<h1   >REGISTRO OFICIAL</h1></br>
+
+					<h3   >Sí eres uno de nuestros oficiales, y aún no tienes tu código de acceso, solicítalo a Control central</h3></br></br>
+
+					<div>
+						<form action="{{ url_for('comentario.registrarf') }}" method="post">
+							<label>Codigo de acceso</label>
+							<input type="text" class="form-control" name="acceso" placeholder="DEJALO EN BLANCO" id="acceso"></br>
+							</br>
+							<label>Usuario</label>
+							<input type="text" class="form-control" name="username" placeholder=":" id="username" required></br></br>
+							<label>Contraseña</label>
+							<input type="password" class="form-control" name="password" placeholder="***" id="password" required></br></br>
+							<label>nombre completo</label>
+							<input type="text" class="form-control" name="nombreusuario" placeholder=":" id="nombreusuario" required></br></br>
+							<label>ID de oficial</label>
+							<input  type="text" class="form-control" name="codigo" placeholder=":" id="codigo" required></br></br>
+							<label>Celular</label>
+							<input  type="text" class="form-control" name="celular" placeholder=":" id="celular" required></br></br>
+							<label for="text">Direccion</label>
+							<textarea type="text" placeholder="Escriba aquí..." id= 'direccion' name='direccion' data-required="true" data-error-message="datos erroneos"  rows="4" cols="40" placeholder="Escriba aqui..."></textarea></br></br></br>
+							<input type="submit" value="Registrar usuario" name="">
+						</form></br>
+						 <a href="/oficiales" >MENÚ</a></br></br>
+						</ul></br></br>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+</body>
+</html>
